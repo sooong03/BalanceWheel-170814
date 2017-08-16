@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/menu_tracker"-->
+        <!--android:title="@string/inven_tracker_open"-->
+        <!--android:icon="@drawable/ic_tracker"-->
+        <!--app:showAsAction="always"/>-->
+
+    <item android:id="@+id/menu_calendar"
+        android:title="@string/set_device_calendar"
+        android:icon="@drawable/ic_expand_more"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

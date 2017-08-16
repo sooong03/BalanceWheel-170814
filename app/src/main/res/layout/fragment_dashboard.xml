@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="kr.anima.xd.s.a170802_balancewheel.DashboardFragment"
+    android:id="@+id/view_root_dash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ic_48dp">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/layout_dash_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/myColorPrimary"
+                app:contentInsetStart="0dp"
+                app:contentInsetEnd="0dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_8dp">
+
+                    <ToggleButton
+                        android:id="@+id/btn_tracker"
+                        style="@style/MyAppTheme.Toggle"
+                        android:foreground="@drawable/ic_toolbar_tracker"
+                        />
+                    <TextView
+                        android:id="@+id/txt_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/content_date_start"
+                        android:textSize="@dimen/typo_headline"
+                        android:textAllCaps="true"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ToggleButton
+                        android:id="@+id/btn_calendar"
+                        style="@style/MyAppTheme.Toggle"
+                        android:foreground="@drawable/ic_toolbar_calendar"
+                        android:layout_alignParentRight="true"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+            <FrameLayout
+                android:id="@+id/view_dash"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <!--<fragment-->
+                <!--android:id="@+id/frag_dashboard"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:name="kr.anima.xd.s.a170802_balancewheel.DashboardListFragment"-->
+                <!--tools:layout="@layout/dashboard_board_list" />-->
+
+            <!--<fragment-->
+                <!--android:id="@+id/frag_tracker"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="start|left"-->
+                <!--android:name="kr.anima.xd.s.a170802_balancewheel.TrackerOpenFragment"-->
+                <!--tools:layout="@layout/dashboard_tracker_open" />-->
+
+        <!--<fragment-->
+            <!--android:id="@+id/frag_calendar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="end|right"-->
+            <!--android:name="kr.anima.xd.s.a170802_balancewheel.CalendarFragment"-->
+            <!--tools:layout="@layout/dashboard_calendar" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>

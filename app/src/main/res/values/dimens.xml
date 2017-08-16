@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Padding And Margin-->
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+
+
+    <!--Icon Size-->
+    <dimen name="ic_20dp">20dp</dimen>
+    <dimen name="ic_24dp">24dp</dimen>
+    <dimen name="ic_48dp">48dp</dimen>
+    <dimen name="ic_56dp">56dp</dimen>
+    <dimen name="ic_72dp">72dp</dimen>
+    <dimen name="ic_96dp">96dp</dimen>
+    <dimen name="ic_128dp">128dp</dimen>
+    <dimen name="ic_176dp">176dp</dimen>
+    <dimen name="ic_224dp">224dp</dimen>
+    <dimen name="ic_256dp">256dp</dimen>
+
+
+    <!--Typographic-->
+    <dimen name="typo_title">24sp</dimen>
+    <dimen name="typo_btn">15sp</dimen>
+    <dimen name="typo_headline">20sp</dimen>
+    <dimen name="typo_headline_sub">17sp</dimen>
+    <dimen name="typo_body">15sp</dimen>
+    <dimen name="typo_caption">15sp</dimen>
+    <dimen name="typo_caption_sub">12sp</dimen>
+
+
+
+
+</resources>

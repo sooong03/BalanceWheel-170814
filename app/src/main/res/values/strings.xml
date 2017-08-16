@@ -1,0 +1,124 @@
+<resources>
+
+    <string name="server_client_id">280185579702-c7vm7ulhpqoka0mn1nodbs1i3c005r8r.apps.googleusercontent.com</string>
+
+    <string name="app_name">Balance\nWheel</string>
+    <string name="app_maker">MANIA FACTORY</string>
+
+    <string name="app_forgot_password">비밀번호를 잊으셨나요?</string>
+    <string name="app_btn_no_account">계정없이 사용하기</string>
+    <string name="app_select_account">로그인 계정을 선택해주세요.</string>
+    <string name="app_btn_start">시작하기</string>
+
+    <string name="menu_navi_dashboard">대시보드</string>
+    <string name="menu_navi_share_list">공유목록</string>
+    <string name="menu_navi_add_content">미션</string>
+    <string name="menu_navi_inventory">인벤토리</string>
+    <string name="menu_navi_setting">설정</string>
+
+
+    <!--Element-->
+    <string name="app_element_health">건강</string>
+    <string name="app_element_finances">재정</string>
+    <string name="app_element_emotional">감정</string>
+    <string name="app_element_environment">환경</string>
+    <string name="app_element_relationships">관계</string>
+    <string name="app_element_appearance">외면</string>
+    <string name="app_element_education">교육</string>
+    <string name="app_element_spirituality">정신</string>
+    <string name="app_element_business">사업</string>
+
+    <!--Dashboard Title-->
+    <string name="dash_task_today">오늘의 일정</string>
+    <string name="dash_task_tomorrow">내일 일정 미리보기</string>
+    <string name="dash_task_miss">놓친 일정</string>
+    <string name="dash_state_emotional">기분이 어떠신가요?</string>
+    <string name="dash_state_body">건강 상태는 어떠신가요?</string>
+    <string name="dash_state_weather">현재 날씨</string>
+
+    <!--My Share List-->
+    <string name="share_downloads">공유받은 일정</string>
+    <string name="share_share_content">공유중인 일정</string>
+    <string name="share_my_list">나의 목록</string>
+    <string name="share_search">검색</string>
+    <string name="share_refresh">새로고침</string>
+    <string name="share_upload">새 일정 공유</string>
+
+    <!--Add Content-->
+    <string name="content_task_title">제목</string>
+    <string name="content_mission">미션</string>
+    <string name="content_date_start">시작일</string>
+    <string name="content_date_end">종료일</string>
+    <string name="content_date_all_day">하루종일</string>
+    <string name="content_date_lunar_calendar">음력사용</string>
+    <string name="content_cycle">반복</string>
+    <string name="content_no_cycle">반복없음</string>
+    <string name="content_cycle_date">반복주기</string>
+    <string name="content_alarm">알림</string>
+    <string name="content_no_alarm">알림없음</string>
+    <string name="content_btn_ok">저장</string>
+    <string name="content_btn_cancel">취소</string>
+    <string name="content_element">요소</string>
+
+    <!--Inventory-->
+    <string name="inven_tracker_open">즐겨찾는 트래커</string>
+    <string name="inven_tracker_all">모든 트래커</string>
+    <string name="inven_level">레벨</string>
+    <string name="inven_storage">저장소</string>
+    <string name="inven_event">비밀공간</string>
+    <string name="inven_num_task">개의 목록이 있습니다</string>
+
+    <!--Tracker-->
+    <string name="tracker_cycle">원형</string>
+    <string name="tracker_table">표</string>
+
+    <!--Storage-->
+    <string name="sto_completed">미션 종료</string>
+    <string name="sto_temp">대기중 미션</string>
+
+    <!--Event-->
+    <string name="event_close">닫힘</string>
+    <string name="event_library">도서관</string>
+    <string name="event_game">명예의 전당</string>
+    <string name="event_ticket">영화관</string>
+    <string name="event_gallery">앨범</string>
+    <string name="event_birthday">생일</string>
+
+    <!--Mission Detail-->
+    <string name="mission_total">종합</string>
+    <string name="mission_daily">일별</string>
+    <string name="mission_element">레벨</string>
+
+    <!--Setting-->
+    <string name="set_account">연결 계정</string>
+    <string name="set_password">암호설정</string>
+    <string name="set_data">데이타 관리</string>
+    <string name="set_start_day">시작요일</string>
+    <string name="set_start_day_mon">월요일</string>
+    <string name="set_start_day_sun">일요일</string>
+    <string name="set_start_day_sat">토요일</string>
+    <string name="set_device_calendar">캘린더 동기화</string>
+    <string name="set_auto_save">자동저장 사용</string>
+    <string name="set_weather">날씨</string>
+    <string name="set_diary">일기</string>
+    <string name="set_photo">사진</string>
+    <string name="set_admin_qna">QnA</string>
+    <string name="set_admin">관리자 문의</string>
+
+    <!--Notice-->
+    <string name="noti_no_account">일부 기능 사용에 제한이 생깁니다.\n그대로 진행하시겠습니까?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="calendar_mon">월</string>
+    <string name="calendar_tue">화</string>
+    <string name="calendar_wen">수</string>
+    <string name="calendar_the">목</string>
+    <string name="calendar_fri">금</string>
+    <string name="calendar_sat">토</string>
+    <string name="calendar_sun">일</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_mylist"
+        android:title="@string/share_my_list"
+        android:icon="@drawable/ic_mbri_save"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menu_search"
+        android:title="@string/share_search"
+        android:icon="@drawable/ic_mbri_search"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menu_refresh"
+        android:title="@string/share_refresh"
+        android:icon="@drawable/ic_mbri_refresh"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menu_upload"
+        android:title="@string/share_upload"
+        android:icon="@drawable/ic_mbri_upload"
+        app:showAsAction="always"
+        />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/_4dp">
+
+    <ImageView
+        android:layout_width="@dimen/ic_48dp"
+        android:layout_height="@dimen/ic_48dp"
+        app:srcCompat="@drawable/ic_mbri_photo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/_4dp"/>
+
+    <TextView
+        android:layout_width="@dimen/ic_48dp"
+        android:layout_height="wrap_content"
+        android:text="@string/event_gallery"
+        android:textSize="@dimen/typo_headline_sub"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

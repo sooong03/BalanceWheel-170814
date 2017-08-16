@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.anima.xd.s.a170802_balancewheel.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:id="@+id/view_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/layout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ic_56dp"
+        app:tabTextColor="@color/myColorText"
+        app:tabSelectedTextColor="@color/myColorAccent"
+        app:tabMode="fixed"
+        app:tabIndicatorHeight="0dp"
+        app:tabMinWidth="80dp"
+        >
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dp"
+            android:text="@string/menu_navi_dashboard"
+            android:icon="@drawable/ic_navi_dashboard"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_navi_share_list"
+            android:icon="@drawable/ic_navi_globe"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_navi_add_content"
+            android:icon="@drawable/ic_navi_edit"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_navi_inventory"
+            android:icon="@drawable/ic_navi_inventory"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_navi_setting"
+            android:icon="@drawable/ic_navi_more"
+            />
+    </android.support.design.widget.TabLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myColorPrimary</item>
+        <item name="colorPrimaryDark">@color/myColorPrimaryDark</item>
+        <item name="colorAccent">@color/myColorAccent</item>
+    </style>
+
+    <style name="MyAppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myColorPrimary</item>
+        <item name="colorPrimaryDark">@color/myColorPrimaryDark</item>
+        <item name="colorAccent">@color/myColorAccent</item>
+    </style>
+
+    <!--BTN style-->
+    <style name="MyAppTheme.Btn">
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">clickBtn</item>
+    </style>
+    
+    <style name="MyAppTheme.GridText">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_margin">@dimen/_8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/typo_headline_sub</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="MyAppTheme.Toggle">
+        <item name="android:layout_width">@dimen/ic_24dp</item>
+        <item name="android:layout_height">@dimen/ic_24dp</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:checked">false</item>
+    </style>
+
+    <style name="CardView.Inventory">
+        <item name="android:layout_margin">@dimen/_2dp</item>
+        <item name="cardElevation">@dimen/_2dp</item>
+        <item name="cardCornerRadius">@dimen/_2dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="weekIndicatorStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/typo_caption</item>
+        <item name="android:textColor">@color/myColorAccent</item>
+    </style>
+    
+</resources>

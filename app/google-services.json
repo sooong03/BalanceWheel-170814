@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162171882416",
+    "project_id": "my-project-1499403006743"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162171882416:android:f20ab8478541c549",
+        "android_client_info": {
+          "package_name": "kr.anima.xd.s.a170802_balancewheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162171882416-o5q2r0fritmes66rbp6clhnndvcnemlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.anima.xd.s.a170802_balancewheel",
+            "certificate_hash": "230fbb1c69546659041210a64dd4791b3b210e7a"
+          }
+        },
+        {
+          "client_id": "162171882416-3m45n0o4gdpp0bfofnbbnhvqsmr7lukp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASR23U_k7G0LiBWl3tcNETb2WRACUO2wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="list_element">
+        <item>건강</item>
+        <item>재정</item>
+        <item>감정</item>
+        <item>정신</item>
+        <item>외면</item>
+        <item>관계</item>
+        <item>환경</item>
+        <item>사업</item>
+        <item>교육</item>
+    </string-array>
+
+    <string-array name="set_account">
+        <item>계정관리</item>
+        <item>연결계정</item>
+        <item>암호설정</item>
+        <item>데이터관리</item>
+    </string-array>
+    
+    <string-array name="set_display">
+        <item>화면관리</item>
+        <item>시작요일</item>
+        <item>음력</item>
+        <item>기기 캘린더 가져오기</item>
+        <item>자동저장</item>
+    </string-array>
+    
+    <string-array name="set_content">
+        <item>요소관리</item>
+        <item>날씨</item>
+        <item>일기</item>
+        <item>사진</item>
+    </string-array>
+
+    <string-array name="set_admin">
+        <item>사용문의</item>
+        <item>Q n A</item>
+        <item>관리자문의</item>
+    </string-array>
+    
+    <string-array name="state_emotion">
+        <item>기쁨</item>
+        <item>화남</item>
+        <item>우울</item>
+    </string-array>
+
+</resources>

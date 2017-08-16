@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_16dp">
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_mon" />
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_tue"/>
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_wen" />
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_the" />
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_fri" />
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_sat" />
+        <TextView
+            style="@style/weekIndicatorStyle"
+            android:text="@string/calendar_sun" />
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.ldf.calendar.view.MonthPager
+            android:id="@+id/calendar_view"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:paddingStart="@dimen/_16dp"
+            android:paddingEnd="@dimen/_16dp">
+        </com.ldf.calendar.view.MonthPager>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            app:layout_behavior="com.ldf.calendar.behavior.RecyclerViewBehavior"
+            android:layout_gravity="bottom"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginBottom="45dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
